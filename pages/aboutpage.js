@@ -1,29 +1,23 @@
-
 import Head from 'next/head'
-import Contact from '../components/Contact';
-import { Home } from '../components/Home';
+import { Aboutme } from '../components/Aboutme';
 import { Getintouch } from '../components/Getintouch';
 
-import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
-
-
-
-export default function Main() {
-
-  
+export default function About() {
   return (
-    <div className="main">
+    <div className="aboutpage">
       <Head>
-        <title>Portfolio | Home</title>
+        <title>Portfolio | About</title>
         <meta name="description" content="Portfolio website" />
         <link rel="icon" href="/project.webp" />
       </Head>
-      <Home />
+    
+
+      <Aboutme/>
+      <Skills/>
       
 
     </div>
   )
 }
-
