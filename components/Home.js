@@ -23,7 +23,7 @@ export function Home() {
             </Slide>
             <Slide direction='right' duration={1500}>
             
-            <h1 className=" myname text-white  mt-2 md:text-7xl  pl-6">I'm Raktim Yoddha</h1>
+            <h1 className=" myname text-white  mt-2 md:text-7xl  pl-6">I&apos;m Raktim Yoddha</h1>
             </Slide>
             <h1 className='profession mt-2 mb-4 text-white text-xl md:text-5xl pl-6'>
             <Typewriter
