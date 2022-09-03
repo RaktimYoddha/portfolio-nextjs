@@ -19,7 +19,7 @@ export function Aboutme() {
                 </div>
             <div className="column right">
               <Slide  direction='right'>
-                <div className="text">I&apos;m Raktim Yoddha</div>
+                <div className="text">I'm Raktim Yoddha</div>
               </Slide>
               <Zoom cascade delay={10}>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
