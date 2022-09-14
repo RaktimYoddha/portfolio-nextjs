@@ -12,14 +12,14 @@ export function Aboutme() {
             <h2 className="about-heading text-3xl ml-9 mb-5">About Me</h2>
             </Slide>
           <div className='about-details'>
-            <div className="column left">
+            <div className="about-left column left">
               <Zoom cascade delay={10}>
                 <Image src={"/project.webp"} height={300} width={300} />
                 </Zoom>
                 </div>
-            <div className="column right">
+            <div className="about-right column right">
               <Slide  direction='right'>
-                <div className="text">I&apos;m Raktim Yoddha</div>
+                <div className="about-text">I&apos;m Raktim Yoddha</div>
               </Slide>
               <Zoom cascade delay={10}>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
