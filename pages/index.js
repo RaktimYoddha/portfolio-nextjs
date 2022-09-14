@@ -18,7 +18,7 @@ export default function Main() {
       <Head>
         <title>Portfolio | Home</title>
         <meta name="description" content="Portfolio website" />
-        <link rel="icon" href="/project.webp" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Home />
       
