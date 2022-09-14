@@ -10,9 +10,9 @@ export function Getintouch() {
     <div className='follow-con pl-4 z-50 mt-11 pt-11 w-auto fixed'>
         <div className='flex mt-11'>
           <h1 className='followme mb-5'>Get In Touch</h1>
-          <div className=" h-60 w-0.5 slant-line"></div>
+          <div className="followme-line h-60 w-0.5 slant-line"></div>
         </div>
-        <div className=' ml-3 mt-4 flex flex-col'>
+        <div className='followme-icons ml-3 mt-4 flex flex-col'>
           <Link href='https://twitter.com/Raktim_Yoddha07'>
             <a>
               <FontAwesomeIcon icon={faTwitter} color='#77c3ec' size='xl' beatFade className='mt-7' />
