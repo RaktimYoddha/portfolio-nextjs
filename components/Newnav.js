@@ -59,7 +59,7 @@ export function Newnav() {
             <a className="link link--page cursor-pointer"  href="aboutpage">About</a>
           </div>
           <div className="pages-nav__item lg:mx-5  md:flex" onClick={() => setNavActive(!navActive)}>
-            <a className="link link--page cursor-pointer" href="#projectpage">Projects</a>
+            <a className="link link--page cursor-pointer" href="projectpage">Projects</a>
           </div>
           <div className="pages-nav__item lg:mx-5  md:flex" onClick={() => setNavActive(!navActive)}>
             <a className="link link--page cursor-pointer" href="blogpage">Blogs</a>
