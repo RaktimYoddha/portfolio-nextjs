@@ -4,76 +4,57 @@ import Link from "next/link";
 export default function Projects() {
 
   const projectsData = [
-    {
+     {
       img: '/portfolio.png',
       title: 'Portfolio Website',
       details: "Personal portfolio website to showcase all projects , skills and information",
       tags: ['NextJs', "Tailwind CSS", "SASS"],
-      Link: 'https://fonts.google.com/?query=ubuntu'
+      link: 'https://raktimyoddha.vercel.app/'
     },
     {
       img: '/project.webp',
-      title: 'wefwef grewaesd',
-      details: 'gw wgrefdas wrfeadskgrefldw grwkfoelpwdigtkor4fepldwkorefpdw ikgtorflepkogt5rlpes',
-      tags: ['NextJS', 'Tailwind CSS'],
-      Link: 'google.com'
+      title: 'Convo',
+      details: 'A chatting web-app where you can chat as well as share files with friends and colleague',
+      tags: ['ReactJs', 'ExpressJs', 'Socket.IO','NodeJs', 'Material UI'],
+      link: 'google.com'
     },
     
     {
-      img: '/project.webp',
-      title: 'Mefd grew3t4rfwed',
-      details: 'A Movie Catafwe gwtrfedgt4rf gr4feDB.',
-      tags: ['React', 'CSS'],
-      Link: 'google.com'
+      img: '/musify.png',
+      title: 'Musify',
+      details: 'A music player web-app with few selectable songs',
+      tags: ['ReactJs', 'CSS', "Firebase"],
+      link: 'https://raktimyoddha.github.io/Musify-Beta-1.0/'
     },
     {
-      img: '/project.webp',
-      title: 'Ufr rfewd rfe fwecdqwe',
-      details: 'A clonewvgtrf refw rfewqd rfew rfew rfew ewer ffwdserf',
-      tags: ['React Native', 'Firebase'],
-      Link: 'google.com'
+      img: '/webkit-mini.png',
+      title: 'Drum-Kit Mini',
+      details: 'A click responding Drum-Kit with added key strokes play',
+      tags: ['HTML5', 'CSS', 'Javascript'],
+      link: 'https://raktimyoddha.github.io/DrumKit-mini'
     },
     {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
+      img: '/foody.png',
+      title: 'Foody',
+      details: 'A food ordering website design',
+      tags: ['HTML5', 'CSS','JQuery'],
+      link: 'https://raktimyoddha.github.io/FoodOrderBegineeer'
     },
+    
     {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
+      img: '/snakegame.png',
+      title: 'Snake Game',
+      details: 'A classical Snake Game with Score and high score record and sound-effects',
+      tags: ['HTML5', 'CSS', 'Javascript'],
+      link: 'https://raktimyoddha.github.io/SnakeGame'
     },
+    
     {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
-    },
-    {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
-    },
-    {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
-    },
-    {
-      img: '/project.webp',
-      title: 'tre tre gtre',
-      details: 'tbrgervf rvfwe trvefd rfed rfedw rfedw rfed wsf edws edwed wsed w',
-      tags: ['React', 'Python'],
-      Link: 'google.com'
+      img: '/tic-tac-toe.png',
+      title: 'Tic-Tac-Toe Game',
+      details: 'A tik-tac-toe game where every time a random player gets chance first',
+      tags: ['HTML5', 'CSS', 'Javascript'],
+      link: 'https://raktimyoddha.github.io/tic-tac-toe'
     },
   ]
   
