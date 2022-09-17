@@ -6,33 +6,34 @@ import { Fade } from "react-awesome-reveal";
 
 export function Navbar({ colorTheme, setTheme }) {
 
-  const [colorChange, setColorchange] = useState(true);
-  const changeNavbarColor = () => {
-    // console.log(window.scrollY)
-    if(window.scrollY >= 66){
-      setColorchange(true);
-    }
-    else{
-      setColorchange(false);
-    }
- };
+//   const [colorChange, setColorchange] = useState(true);
+//   const changeNavbarColor = () => {
+//     // console.log(window.scrollY)
+//     if(window.scrollY >= 66){
+//       setColorchange(true);
+//     }
+//     else{
+//       setColorchange(false);
+//     }
+//  };
 
- const toggleDarkmode = () => {
-  // if(colorTheme === "light") {
-    setTheme(!colorTheme);
-    console.log(colorTheme)
- }
+//  const toggleDarkmode = () => {
+//   // if(colorTheme === "light") {
+//     setTheme(!colorTheme);
+//     console.log(colorTheme)
+//  }
 
  
   
-  React.useEffect(() => {
-    // window is accessible here.
-    changeNavbarColor()
-    window.addEventListener('scroll', changeNavbarColor);
-  }, []);
+  // React.useEffect(() => {
+  //   // window is accessible here.
+  //   changeNavbarColor()
+  //   window.addEventListener('scroll', changeNavbarColor);
+  // }, []);
   
   return (
-    <nav  className={colorChange ? 'navbar colorChange shadow-xl rounded-b-xl' : 'navbar rounded-b-xl'}>
+    // <nav className={colorChange ? 'navbar colorChange shadow-xl rounded-b-xl' : 'navbar rounded-b-xl'}>
+    <nav  className='navbar rounded-b-xl'>
       <div className="flex flex-row justify-between rounded-b-xl" >
         <div className="align-top">
           <h1 className="portfolio-logo p-5  lg:mx-9 text-white md:text-3xl text-xl">Portfolio</h1>
