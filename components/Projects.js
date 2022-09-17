@@ -1,10 +1,11 @@
 import { Slide } from "react-awesome-reveal";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Projects() {
 
   const projectsData = [
-     {
+    {
       img: '/portfolio.png',
       title: 'Portfolio Website',
       details: "Personal portfolio website to showcase all projects , skills and information",
@@ -56,14 +57,17 @@ export default function Projects() {
       tags: ['HTML5', 'CSS', 'Javascript'],
       link: 'https://raktimyoddha.github.io/tic-tac-toe'
     },
+    
   ]
+
+  
   
 
   return (
     <div className="flex flex-col items-center ml-11" id="projects">
       <div className='flex flex-col items-center mb-11'>
         <h1 className='project-heading text-3xl ml-2 mb-5'>PROJECTS</h1>
-        
+        <h1 className='project-subheading text-3xl ml-2 mb-5'>-Click on the Project Image to visit the site-</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         <Slide direction="right" cascade delay={0} triggerOnce>
@@ -71,9 +75,9 @@ export default function Projects() {
           {projectsData.map((item, index) => (
             <div className="project max-w-sm rounded flex flex-col justify-between overflow-hidden shadow-lg bg-white mx-4 pb-5" key={index}>
               <div className="p-6">
-                {/* <a href="${item.Link}"> */}
-                  <img width={400} height={400} src={item.img} alt="Sunset in the mountains" />
-                  {/* </a> */}
+                <Link href={`${item.link}`}>
+                  <Image width={400} height={220} src={item.img} alt="Sunset in the mountains" />
+                  </Link>
               </div>
               <div>
                 <div className="px-6 py-4">
