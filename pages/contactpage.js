@@ -8,7 +8,7 @@ export default function Contactpage() {
       <Head>
         <title>Portfolio | Contact</title>
         <meta name="description" content="Portfolio website" />
-        <link rel="icon" href="/project.webp" />
+        <link rel="icon" href="/favicon.png" />
     </Head>  
     <Contact/>
     </div>
