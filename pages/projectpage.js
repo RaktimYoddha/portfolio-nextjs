@@ -9,7 +9,7 @@ export default function Projectpage() {
       <Head>
         <title>Portfolio | Projects</title>
         <meta name="description" content="Portfolio website" />
-        <link rel="icon" href="/project.webp" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
     
 
