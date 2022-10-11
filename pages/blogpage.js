@@ -7,7 +7,7 @@ export default function blogpage() {
       <Head>
         <title>Portfolio | Blogs</title>
         <meta name="description" content="Portfolio website" />
-        <link rel="icon" href="/project.webp" />
+        <link rel="icon" href="/favicon.png" />
     </Head>  
     <Blogs/>
     </div>
