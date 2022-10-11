@@ -13,18 +13,25 @@ export default function Projects() {
       link: 'https://raktimyoddha.vercel.app/'
     },
     {
-      img: '/project.webp',
+      img: '/convo.png',
       title: 'Convo',
       details: 'A chatting web-app where you can chat as well as share files with friends and colleague',
       tags: ['ReactJs', 'ExpressJs', 'Socket.IO','NodeJs', 'Material UI'],
       link: 'google.com'
     },
-    
     {
       img: '/musify.png',
       title: 'Musify',
-      details: 'A music player web-app with few selectable songs',
-      tags: ['ReactJs', 'CSS', "Firebase"],
+      details: 'A complete new generation music player and searching web app',
+      tags: ['ReactJs', 'Redux', 'Rapid API','Tailwind CSS','CSS'],
+      link: 'https://musify-soundon.netlify.app/'
+    },
+    
+    {
+      img: '/musify-beta.png',
+      title: 'Musify -vanilla',
+      details: 'A music player website with few selectable songs',
+      tags: ['HTML5', 'CSS', "Javascript"],
       link: 'https://raktimyoddha.github.io/Musify-Beta-1.0/'
     },
     {
