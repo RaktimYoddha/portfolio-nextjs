@@ -1,4 +1,4 @@
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -25,6 +25,12 @@ export default function Projects() {
       details: 'A complete new generation music player and searching web app',
       tags: ['ReactJs', 'Redux', 'Rapid API','Tailwind CSS','CSS'],
       link: 'https://musify-soundon.netlify.app/'
+    },
+    {
+      img: '/todo-list.png',
+      title: 'Todo-List',
+      details: 'A todo list app with create read and delete option and save edits in local storage',
+      tags :['Reactjs', 'React bootstrap','CSS']
     },
     
     {
@@ -77,32 +83,32 @@ export default function Projects() {
         <h1 className='project-subheading text-3xl ml-2 mb-5'>-Click on the Project Image to visit the site-</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-        <Slide direction="right" cascade delay={0} triggerOnce>
+        <Fade  cascade  triggerOnce>
         
           {projectsData.map((item, index) => (
             <div className="project max-w-sm rounded flex flex-col justify-between overflow-hidden shadow-lg bg-white mx-4 pb-5" key={index}>
-              <div className="p-6">
-                <Link href={`${item.link}`}>
-                  <Image width={400} height={220} src={item.img} alt="Sunset in the mountains" />
-                  </Link>
-              </div>
+              
               <div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2" style={{color: '#cecece'}}>{item.title}</div>
-                  <p className="text-white font-semibold text-base">
-                    {item.details}
-                  </p>
+                  <div className="project-item font-bold text-xl mb-2" style={{ color: '#b9bbb6' }}>{item.title}</div>
+                  {/* <hr className="projecthr"/> */}
+                  <p className="project-details text-white font-semibold text-base" style={{ color: '#877f7d' }}>{item.details}</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
                   {item.tags.map((tag, i) => (
-                    <span key={i} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
+                    <span key={i} className="inline-block bg-gray-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-900 mr-2 mb-2">{tag}</span>
                   ))}
                 </div>
+              </div>
+              <div className="p-3">
+                <Link href={`${item.link}`}>
+                  <Image width={400} height={220} src={item.img} alt="Sunset in the mountains" />
+                </Link>
               </div>
             </div>
           ))}
 
-        </Slide>
+        </Fade>
       </div>
     </div>
   )
