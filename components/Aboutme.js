@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { Slide } from "react-awesome-reveal"
-import { Zoom } from "react-awesome-reveal";
+import { Slide , Zoom} from "react-awesome-reveal"
+
 
 
 export function Aboutme() {
@@ -8,9 +8,9 @@ export function Aboutme() {
     <div className="about" id="about">
     <div className="max-width">
         <div className="about-content">
-          <Slide>
+          <Zoom cascade delay={100}>
             <h2 className="about-heading text-3xl ml-9 mb-5">About Me</h2>
-            </Slide>
+            </Zoom>
           <div className='about-details'>
             <div className="about-left column left">
               <Zoom cascade delay={10}>
@@ -18,18 +18,18 @@ export function Aboutme() {
                 </Zoom>
                 </div>
             <div className="about-right column right">
-              <Slide  direction='right'>
+              <Zoom   delay={50}>
                 <div className="about-text">I&apos;m Raktim Yoddha</div>
-              </Slide>
+              </Zoom>
               <Zoom cascade delay={10}>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
-                        autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-                        accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus
-                        veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis
-                  beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                <p>- I have pursued my Btech in Electonics and Communication
+                <br />- I study in Mizoram University, Aizawl 
+                <br />- My interests are in full stack web development and learning new technology
+                  <br />- I am also learning Web3 and ML/AI 
+                  </p>
                 </Zoom>
               <Slide direction='up'>     
-                <a href="#about">Download CV</a>
+                <a className="cv" href="#about">Download CV</a>
               </Slide> 
             </div>
             </div>
