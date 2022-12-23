@@ -83,7 +83,7 @@ export default function Skills() {
             </li>
             <li className="p-6 my-6">
               <div className="progressbar-title">
-                <h3>NextJs</h3>
+                <h3>NextJs | Vite | Gatsby</h3>
                 <span className="percent" id="javascript-pourcent"></span>
               </div>
               <div className="bar-container">
