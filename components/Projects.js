@@ -9,7 +9,7 @@ export default function Projects() {
       img: '/portfolio.png',
       title: 'Portfolio Website',
       details: "Personal portfolio website to showcase all projects , skills and information",
-      tags: ['NextJs', "Tailwind CSS", "SASS"],
+      tags: ["ReactJs",'NextJs', "Tailwind CSS", "SASS"],
       link: 'https://raktimyoddha.vercel.app/'
     },
     {
@@ -30,7 +30,7 @@ export default function Projects() {
       img: '/todo-list.png',
       title: 'Todo-List',
       details: 'A todo list app with create read and delete option and save edits in local storage',
-      tags :['Reactjs', 'React bootstrap','CSS']
+      tags :['Reactjs','Vite', 'React bootstrap','CSS']
     },
     
     {
