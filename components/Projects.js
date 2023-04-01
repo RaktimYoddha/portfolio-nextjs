@@ -30,7 +30,8 @@ export default function Projects() {
       img: '/todo-list.png',
       title: 'Todo-List',
       details: 'A todo list app with create read and delete option and save edits in local storage',
-      tags :['ReactJs','Vite', 'React bootstrap','CSS']
+      tags :['ReactJs','Vite', 'React bootstrap','CSS'],
+      link : 'https://todolist-crd.netlify.app/'
     },
     
     {
